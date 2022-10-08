@@ -46,7 +46,7 @@ function copied()
   else{
   passwordBoard.select();
   document.execCommand('Copy');
-  passwordBoard.value = " "; 
+  passwordBoard.value = ""; 
   copiedAlert.style.opacity = "0";
   arrow.style.opacity = "1";
   notice.style.opacity = "1";
