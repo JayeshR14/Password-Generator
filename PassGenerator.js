@@ -46,13 +46,15 @@ function copied()
   else{
   passwordBoard.select();
   document.execCommand('Copy');
+  passwordBoard.value = " "; 
   copiedAlert.style.opacity = "0";
   arrow.style.opacity = "1";
   notice.style.opacity = "1";
   }
 
- 
   setTimeout(()=>{
+    
+  passwordBoard.value = ''; 
     arrow.style.opacity = "0";
     notice.style.opacity = "0";
   },1000)

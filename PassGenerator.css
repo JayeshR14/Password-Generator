@@ -5,7 +5,7 @@ body{
 }
 
 .copy{
-
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,8 +33,7 @@ body{
   background-color: rgb(197, 197, 197);
   padding:2px 8px 2px 8px;
   position:absolute;
-  top:63px;
-  left:375px;
+  top:60px;
   opacity:0;
   border-radius: 5px;
   font-weight: bold;
@@ -53,8 +52,17 @@ body{
 @media (max-width:500px) {
   .passwordBoard{
     width:200px;
+    height:44px;
+    font-size:15px;
+    padding-left:10px;
   }
-  
+  .copy{
+    height:45px;
+  }
+  .copy img{
+    height:20px;
+  }
+
 }
 button{
   margin-top: 10px;
@@ -70,8 +78,8 @@ button{
 .arrow{
   opacity:0;
   position:absolute;
-  top:65px;
-  left:403px;
+  top:62px;
+ left:23px; 
   height:10px;
   width:30px;
   background-color:rgb(88, 88, 88);
