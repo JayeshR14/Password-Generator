@@ -50,6 +50,12 @@ body{
   color:rgb(110, 109, 109);
   background-color: rgb(239, 239, 240);
 }
+@media (max-width:500px) {
+  .passwordBoard{
+    width:200px;
+  }
+  
+}
 button{
   margin-top: 10px;
   color:white;
